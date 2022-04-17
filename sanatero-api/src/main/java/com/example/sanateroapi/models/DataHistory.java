@@ -5,6 +5,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 
 @Entity
 @Getter
@@ -19,12 +20,15 @@ public class DataHistory {
     @Column(name = "table_name")
     private String table_name;
 
+    @Column(name = "date")
+    private LocalDate date;
+
     @Column(name = "action")
     private String action;
 
-    @Column(name = "old_value")
+    @Column(name = "old")
     private String oldValue;
 
-    @Column(name = "new_value")
+    @Column(name = "new")
     private String newValue;
 }

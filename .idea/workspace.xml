@@ -2,7 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46309dd7-cf0b-4c63-ac99-274d65177617" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/controllers/MedicalAssistanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/controllers/MedicalRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/repositories/MedicalAssistanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/repositories/MedicalRecordRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/services/MedicalAssistanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/services/MedicalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/medical-assistance/medical-assistance.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/medical-assistance/medical-assistance.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/medical-assistance/medical-assistance.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/medical-assistance/medical-assistance.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/navbar/navbar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/navbar/navbar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/navbar/navbar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/navbar/navbar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/register/register.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/register/register.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/register/register.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/components/register/register.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/models/MedicalAssistance.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/models/MedicalRecord.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/models/User.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanatero-ui/src/app/services/ApiService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/models/DataHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/models/DataHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/models/MedicalRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/models/MedicalRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanatero-api/src/main/java/com/example/sanateroapi/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanatero-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sanatero-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanatero-ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/sanatero-ui/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanatero-ui/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanatero-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sanatero-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanatero-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/sanatero-ui/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanatero-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanatero-ui/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Facultate/An-4/BD/proiect/helpup-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sanatero-api" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,6 +79,7 @@
       <workItem from="1643196017930" duration="224000" />
       <workItem from="1643196312695" duration="618000" />
       <workItem from="1643211670096" duration="217000" />
+      <workItem from="1643384305585" duration="13000" />
     </task>
     <servers />
   </component>
@@ -49,9 +87,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1643211887331">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1643384317231">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.-578.2560.1400@0.0.1536.824" timestamp="1643384317231" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1643211887331" />
     <state x="360" y="73" key="new project wizard" timestamp="1643196331457">
       <screen x="0" y="0" width="1536" height="824" />

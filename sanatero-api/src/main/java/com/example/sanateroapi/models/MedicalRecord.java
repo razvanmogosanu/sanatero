@@ -1,5 +1,6 @@
 package com.example.sanateroapi.models;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -12,21 +13,22 @@ import java.time.LocalDate;
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
 public class MedicalRecord {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private Integer id;
+    public Integer id;
 
     @Column(name = "date")
-    private LocalDate date;
+    public LocalDate date;
 
     @ManyToOne
-    private MedicalAssistance medicalAssistance;
+    public MedicalAssistance medicalAssistance;
 
     @ManyToOne
-    private User patient;
+    public User patient;
 
     @ManyToOne
-    private User caregiver;
+    public User caregiver;
 }

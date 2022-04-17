@@ -1,0 +1,22 @@
+<div style="margin-left: 40px; margin-top: 30px">
+  <div *ngFor="let service of medicalAssistance" style="margin-bottom: 20px">
+    <div style="width: 200px; height: 400px;">
+      <b>Nume:</b> {{service.name}}
+      <b>Descriere:</b> {{service.description}}
+      <br>
+      <b>Price:</b> {{service.price}} Ron
+        <select #doctorDropdown class="form-select" aria-label="Default select example">
+          <option selected>Alege doctor</option>
+          <option *ngFor="let doctor of doctors">
+            <a>{{doctor.username}}</a>
+          </option>
+        </select>
+
+
+      <input #datepicker type="date" id="birthday" name="birthday">
+      <button class="btn btn-dark" (click)="programeaza(service)">Programeaza</button>
+    </div>
+
+  </div>
+
+</div>
