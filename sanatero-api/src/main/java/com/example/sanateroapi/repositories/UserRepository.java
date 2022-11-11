@@ -1,5 +1,6 @@
 package com.example.sanateroapi.repositories;
 
+import com.example.sanateroapi.models.Role;
 import com.example.sanateroapi.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -22,5 +23,7 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 
     @Query(nativeQuery = true, value = "select sanatero.get_the_user_with_biggest_expenses()")
     Integer getUserWithBiggestExpenses();
+
+    Integer countUserByRole(Role role);
 
 }
